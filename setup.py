@@ -18,7 +18,7 @@ def requires_from_file(filename):
 setup(
     name='borgprune',
     version='0.1',
-
+    license='MIT',
     author='Felix Schwarz',
     author_email='felix.schwarz@oss.schwarz.eu',
 

@@ -11,4 +11,4 @@ if __name__ == '__main__':
 		sys.stderr.write('usage: %s BORGREPO\n' % sys.argv[0])
 		sys.exit(1)
 	borgrepo = sys.argv[1]
-	cli.prune_repo(borgrepo)
+	cli.prune_repo(borgrepo, dry_run=False, verbose=True)
